@@ -29,6 +29,7 @@
         "/workspaces/rust-fundamentals/exercise/return-value/Cargo.toml",
         "/workspaces/rust-fundamentals/exercise/using-arguments/Cargo.toml",
         "/workspaces/rust-fundamentals/exercise/panic/Cargo.toml",
-        "/workspaces/rust-fundamentals/exercise/file-reader/Cargo.toml"        
+        "/workspaces/rust-fundamentals/exercise/file-reader/Cargo.toml",
+        "/workspaces/rust-fundamentals/implemen/file-reader/Cargo.toml"        
     ]
 }
