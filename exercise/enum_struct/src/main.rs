@@ -14,14 +14,14 @@ struct Coffee
     region : CoffeeRegions
 }
 
-// fn suppoted_regions(c:CoffeeRegions)
-// {
-//     match c
-//     {
-//         CoffeeRegions::Java => println!("Java"),
-//         _ => println!("Not Supported Region!",c)
-//     }
-// }
+fn suppoted_regions(c:CoffeeRegions)
+{
+    match c
+    {
+        CoffeeRegions::Java => println!("Java"),
+        _ => println!("{:?} is Not Supported Region!",c)
+    }
+}
 
 fn main()
 {
@@ -35,4 +35,6 @@ fn main()
     };
     println!("Coffee 1 : {} from {:?}",coffe1.name,coffe1.region);
     println!("Coffee 2 : {} from {:?}",coffe2.name,coffe2.region);
+    suppoted_regions(coffe1.region);
+    suppoted_regions(coffe2.region);
     }
