@@ -1,6 +1,6 @@
 {
     "rust-analyzer.linkedProjects": [
-        "/workspaces/rust-structs-types-enums/examples/1-defining-structs/defining/Cargo.toml",
+        "exercise/struct_data_2",
         "./examples/1-components/project/Cargo.toml",
         "./examples/2-variables/mutable/Cargo.toml",
         "./examples/2-variables/variables/Cargo.toml",
