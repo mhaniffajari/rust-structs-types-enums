@@ -13,9 +13,10 @@ fn divide (x: i32, y: i32) -> Option<i32>
 fn main()
 {
     let a = 32;
-    let b  = 0;
+    let b  = 4;
 
     let result = divide(a,b);
+    println!("Result : {:?}",result.unwrap());
     match result
     {
         Some(x) => println!("Result : {}",x),
